@@ -1,6 +1,6 @@
 en:
   about: "About"
-  app_name: "sample app"
+  app_name: "sample app e=mc2"
   home: "Home"
   help: "Help"
   intro: "Ruby on Rails Tutorial Sample App"
@@ -8,14 +8,16 @@ en:
   title: "Ruby on Rails Tutorial"
   welcome: "Welcome to Sample App!"
 
-  controllers:
-    users_controller:
-      no_user: "user doesn't exist"
-
   layouts:
     header:
       home: Home
       help: Help
+      users: Users
+      profile: Profile
+      settings: Settings
+      log_in: "Log in"
+      log_out: "Log out"
+      account: "Account"
     footer:
       about: About
       news: News
@@ -23,6 +25,15 @@ en:
       the: "The"
       by: "by"
       michael_hartl: "Michael Hartl"
+
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
+      remember_me_msg: "Remember me on this computer"
+    create:
+      invalid_msg: "Invalid email/password combination"
 
   shared:
     error_messages:
@@ -47,3 +58,5 @@ en:
       page_name: "Sign Up"
       confirmation: "Confirmation"
       submit_msg: "Create my account"
+    show:
+      no_user: "User doesn't exist"
