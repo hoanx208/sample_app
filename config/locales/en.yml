@@ -6,7 +6,12 @@ en:
   intro: "Ruby on Rails Tutorial Sample App"
   loading: "Loading..."
   title: "Ruby on Rails Tutorial"
-  welcome: "Welcome to Sample App"
+  welcome: "Welcome to Sample App!"
+
+  controllers:
+    users_controller:
+      no_user: "user doesn't exist"
+
   layouts:
     header:
       home: Home
@@ -18,6 +23,12 @@ en:
       the: "The"
       by: "by"
       michael_hartl: "Michael Hartl"
+
+  shared:
+    error_messages:
+      signup_error_msg: "The form contains"
+      str_errors: "errors"
+
   static_pages:
     home:
       page_name: "Home"
@@ -30,6 +41,9 @@ en:
       page_name: "Help"
     contact:
       page_name: "Contact"
+
   users:
     new:
       page_name: "Sign Up"
+      confirmation: "Confirmation"
+      submit_msg: "Create my account"
