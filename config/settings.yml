@@ -7,3 +7,5 @@ user:
     min_length: 6
 users_helper:
   size: 80
+session_ctrl:
+  rmb: 1
